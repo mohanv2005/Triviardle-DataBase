@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"category": "VideoGames",
+		"sub-category": "Turn-Based",
+		"answer": "Clair Obscur: Expedition 33",
+		"questions": [
+			{
+				"level": 1,
+				"text": "The game's fictional world draws heavily from Belle Époque France, with its visual design influenced by paintings, Art Nouveau, and French architecture."
+			},
+			{
+				"level": 2,
+				"text": "Development of this game began in 2019."
+			},
+			{
+				"level": 3,
+				"text": "It's made by a small French indie game studio, and this game was the studio's debut title."
+			},
+			{
+				"level": 4,
+				"text": "The game combines turn-based combat with real-time mechanics such as parrying, dodging, and counterattacking."
+			},
+			{
+				"level": 5,
+				"text": "It won Game of the Year at The Game Awards 2025."
+			}
+		]
+	}
+]
