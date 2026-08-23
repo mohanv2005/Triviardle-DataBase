@@ -53,32 +53,32 @@ This keeps the JSON database focused on storing **quiz content**, while the appl
 
 ```json
 {
-    "id": 1,
-    "category": "Movies",
-    "sub-category": "Marvel",
-    "answer": "Iron Man 1",
-    "questions": [
-        {
-            "level": 1,
-            "text": "Initially Nicolas Cage and Tom Cruise both showed interest in playing the character in this movie."
-        },
-        {
-            "level": 2,
-            "text": "In this movie the main lead is kidnapped while traveling to Afghanistan."
-        },
-        {
-            "level": 3,
-            "text": "In this movie the main character suffers a heart injury from shrapnel."
-        },
-        {
-            "level": 4,
-            "text": "The director also played the protagonist's chauffeur/bodyguard."
-        },
-        {
-            "level": 5,
-            "text": "This movie gave birth to the Marvel Cinematic Universe."
-        }
-    ]
+	"id": 1,
+	"category": "Movies",
+	"sub-category": "Marvel",
+	"answer": "Iron Man 1",
+	"questions": [
+		{
+			"level": 1,
+			"text": "Initially Nicolas Cage and Tom Cruise both showed interest in playing the character in this movie."
+		},
+		{
+			"level": 2,
+			"text": "In this movie the main lead is kidnapped while traveling to Afghanistan."
+		},
+		{
+			"level": 3,
+			"text": "In this movie the main character suffers a heart injury from shrapnel."
+		},
+		{
+			"level": 4,
+			"text": "The director also played the protagonist's chauffeur/bodyguard."
+		},
+		{
+			"level": 5,
+			"text": "This movie gave birth to the Marvel Cinematic Universe."
+		}
+	]
 }
 ```
 
@@ -88,32 +88,32 @@ If a quiz does not require a sub-category, the value should be `null`:
 
 ```json
 {
-    "id": 2,
-    "category": "Anime",
-    "sub-category": null,
-    "answer": "Naruto",
-    "questions": [
-        {
-            "level": 1,
-            "text": "..."
-        },
-        {
-            "level": 2,
-            "text": "..."
-        },
-        {
-            "level": 3,
-            "text": "..."
-        },
-        {
-            "level": 4,
-            "text": "..."
-        },
-        {
-            "level": 5,
-            "text": "..."
-        }
-    ]
+	"id": 2,
+	"category": "Anime",
+	"sub-category": null,
+	"answer": "Naruto",
+	"questions": [
+		{
+			"level": 1,
+			"text": "..."
+		},
+		{
+			"level": 2,
+			"text": "..."
+		},
+		{
+			"level": 3,
+			"text": "..."
+		},
+		{
+			"level": 4,
+			"text": "..."
+		},
+		{
+			"level": 5,
+			"text": "..."
+		}
+	]
 }
 ```
 
@@ -142,3 +142,7 @@ TRIVIARDLE-DATABASE/
 ```
 
 The database entry script automatically detects existing categories and sub-categories and allows new ones to be created. It automatically generates the next available `id` and appends the new quiz entry to the appropriate JSON file.
+
+## Contributing
+
+- Read the contribution guide [contributing guidelines](./CONTRIBUTING.md)
