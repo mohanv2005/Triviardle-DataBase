@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "category": "VideoGames",
+        "sub-category": "Metroidvania",
+        "answer": "Hollow Knight: Silksong",
+        "questions": [
+            {
+                "level": 1,
+                "text": "This is the second game in the series. After the success of the first title, this game focuses on the story of an important side character."
+            },
+            {
+                "level": 2,
+                "text": "This game was one of the most anticipated indie games."
+            },
+            {
+                "level": 3,
+                "text": "Development of this game began as an expansion for the original game before evolving into a standalone title."
+            },
+            {
+                "level": 4,
+                "text": "This game was nominated for Game of the Year at The Game Awards 2025."
+            },
+            {
+                "level": 5,
+                "text": "It is the sequel to a critically acclaimed 2017 Metroidvania developed by Team Cherry."
+            }
+        ]
+    }
+]
